@@ -1,0 +1,19 @@
+section{
+    padding: 40px 100px;
+}
+
+h2{
+    text-align: center; 
+}
+
+.register-btn{
+    border-color: var(--pink);
+    background-color: var(--pink);
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.register-btn:hover{
+    background-color: transparent;
+    color: var(--pink);
+}

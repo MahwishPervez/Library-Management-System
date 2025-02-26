@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles/utility.css">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <title>SignUp | Lexora - Your Library, Anytime, Anywhere.</title>
+
+</head>
+
+<body>
+
+    <div class="image-container">
+        <img src="images/signup.jpg" alt="">
+    </div>
+
+    <div class="signup-form">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form>
+                <div class="input-container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" required maxlength="10" minlength="10">
+                </div>
+                <div class="id-role-grp">
+                    <div class="input-container">
+                        <label for="student-id">University Id</label>
+                        <input type="text" id="student-id" required maxlength="9" minlength="9">
+                    </div>
+                    <div class="input-container">
+                        <label for="role">Select Role</label>
+                        <select id="role" name="role">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="librarian">Librarian</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+                <button class="register-btn">Register</button>
+            </form>
+            <div class="form-footer">
+                <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+                <div class="go-back-btn">
+                    <span class="material-symbols-outlined">arrow_back</span><a href="index.html">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

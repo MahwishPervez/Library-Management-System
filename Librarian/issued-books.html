@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/utility.css">
+
+    <link rel="stylesheet" href="../styles/manage.css">
+    <link rel="stylesheet" href="../styles/issued-books.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <section>
+        <div class="head">
+            <h2 class="dashboard-titles">Issued Books</h2>
+            <div class="head-btns">
+                <a href="issue-book.html">ISSUE BOOK</a>
+                
+            </div>
+        </div>
+        <div class="filters">
+            <form action="">
+                <input type="text" id="isbn" placeholder="Search by ISBN...">
+                <input type="text" id="id" placeholder="Search by Student Id...">
+                <input type="email" id="email" placeholder="Search by email...">
+                <button class="clear-filters">Clear</button>
+            </form>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ISBN</th>
+                        <th>Student Id</th>
+                        <th>Issued Date</th>
+                        <th>Due Date</th>
+                        <th>Fine</th>
+                        <th>Fine Status</th>
+                        <th class="actions">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1023</td>
+                        <td>123456789</td>
+                        <td>2024-02-01</td>
+                        <td>2024-02-15</td>
+                        <td>$5</td>
+                        <td class="status-unpaid status"><span>Unpaid</span></td>
+                        <td class="actions">
+                            <button class="btn-pay">Pay Fine</button>
+                            <button class="btn-return">Return</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2045</td>
+                        <td>987654321</td>
+                        <td>2024-01-25</td>
+                        <td>2024-02-10</td>
+                        <td>$0</td>
+                        <td class="status-paid status"><span>Paid</span></td>
+                        <td class="actions">
+                            <button class="btn-pay">Pay Fine</button>
+                            <button class="btn-return">Return</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3567</td>
+                        <td>567891234</td>
+                        <td>2024-01-30</td>
+                        <td>2024-02-12</td>
+                        <td>$3</td>
+                        <td class="status-paid status"><span>Paid</span></td>
+                        <td class="actions">
+                            <button class="btn-pay">Pay Fine</button>
+                            <button class="btn-return">Return</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4789</td>
+                        <td>234567891</td>
+                        <td>2024-02-05</td>
+                        <td>2024-02-20</td>
+                        <td>$0</td>
+                        <td class="status-paid status"><span>Paid</span></td>
+                        <td class="actions">
+                            <button class="btn-pay">Pay Fine</button>
+                            <button class="btn-return">Return</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </section>
+</body>
+</html>

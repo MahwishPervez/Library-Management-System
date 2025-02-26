@@ -1,0 +1,9 @@
+.unreserve-btn{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.unreserve-btn:hover{
+    background-color: transparent;
+    color: black;
+}
