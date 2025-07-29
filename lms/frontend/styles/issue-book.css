@@ -1,0 +1,84 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 20px;
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.container > div{
+    width: 100%;
+}
+
+.user-details{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-details > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.user-details > div h5{
+    width: 28%;
+}
+
+.book-details{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.book-details > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.book-details > div h5{
+    width: 28%;
+}
+
+section form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.input-container input, select, textarea {
+    width: 100%;
+}
+select{
+    cursor: pointer;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.issue-btn{
+    padding: 10px;
+    border:2px solid var(--pink);
+    background-color: var(--pink);
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.issue-btn:hover{
+    background-color: transparent;
+    color: var(--pink);
+}

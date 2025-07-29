@@ -1,0 +1,36 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: start;
+    justify-content: start;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+section > div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    gap: 10px;
+    box-shadow: 0px 0px 7px 2px #00000014;
+    
+}
+
+section > div h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section > div h2{
+    font-size: 35px;
+}
+section > div a{
+    color: var(--pink);
+}
+
+section > div a:hover{
+    text-decoration: underline;
+}

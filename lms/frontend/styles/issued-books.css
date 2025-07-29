@@ -1,0 +1,28 @@
+
+
+.status-paid span{
+    background-color: green;
+}
+
+.status-unpaid span{
+    background-color: red;
+}
+.status-paid
+
+
+
+
+
+.actions button{
+    padding: 6px 10px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.btn-pay{
+    background-color: transparent;
+}
+.btn-return{
+    background-color: black;
+    color: white;
+}

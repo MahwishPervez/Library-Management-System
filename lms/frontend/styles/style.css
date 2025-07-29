@@ -1,0 +1,231 @@
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav a:link{
+    display: inline-block;
+    font-size: 18x;
+}
+nav a:hover:not(.login-btn){
+    text-decoration: underline;
+}
+
+nav .login-btn{
+    background-color: black;
+    color: white;
+    padding: 8px 18px;
+    border: 2px solid black;
+}
+.login-btn:hover{
+    color: black;
+    background-color: transparent;
+}
+
+
+.hero{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.hero .hero-image img{
+    width: 600px;
+}
+
+.hero .hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero h2{
+    font-size: 45px;
+}
+.hero p{
+    font-size: 18px;
+}
+.hero button{
+    width: fit-content;
+    padding: 9px 14px;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.hero button:hover{
+    background-color: black;
+    color: white;
+}
+
+.about-us, .our-mission{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    padding: 30px 0;
+}
+
+.container{
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 60%;
+}
+.container .text-content h2{
+    font-size: 40px;
+}
+.text-content h2 span{
+    color: var(--pink);
+}
+.container .text-content p{
+    font-size: 20px;
+    line-height: 30px
+}
+
+.container .mission-pointers{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container .img-content img{
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer #contact-links {
+    display: grid;
+    grid-template-columns: 60% auto;
+    
+    column-gap: 1px;
+
+}
+
+#contact-links #contact {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px 10px 200px;
+    gap: 40px;
+}
+
+#contact>div {
+    align-items: flex-start;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+form input,
+form textarea {
+    font-size: 18px;
+    padding: 8px;
+}
+
+::placeholder {
+    color: rgb(40, 40, 40);
+    font-weight: 300;
+}
+
+form #name::placeholder {
+    font-weight: 600;
+}
+
+form #submit {
+    width: 25%;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+form #submit:hover {
+   background-color: var(--pink);
+}
+
+
+
+#contact-links #quick-links {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(255, 255, 255, 0.367);
+    gap: 20px;
+    padding: 10px 100px;
+}
+
+#quick-links h2 {
+    color: var(--pink);
+}
+
+#quick-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+#quick-links div>a {
+    color: var(--white);
+    padding: 8px 10px;
+    border-radius: 30px;
+    max-width: 157px;
+    transition: all 0.5s ease;
+}
+
+#quick-links div>a:hover {
+    background: var(--pink);
+}
+
+footer #socials {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+footer #socials>div {
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer #socials i {
+    color: black;
+    transform: scale(1.5);
+}

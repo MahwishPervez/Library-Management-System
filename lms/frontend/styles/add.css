@@ -1,0 +1,70 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 20px;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+form .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-container{
+    width: 100%;
+}
+
+.input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-container input, select, textarea {
+    width: 100%;
+}
+select{
+    cursor: pointer;
+}
+
+form .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.btn-container .go-back, .btn-container .submit{
+    border-width: 2px;
+    border-style: solid;
+    outline: none;
+    padding: 8px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.go-back{
+    border-color: var(--pink);
+    background-color: var(--pink);
+}
+.go-back:hover{
+    background-color: transparent;
+    color: var(--pink)
+}
+.submit{
+    border-color: black;
+    background-color: black;
+}
+
+.submit:hover{
+    background-color: transparent;
+    color: black;
+}
